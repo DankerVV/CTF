@@ -1,12 +1,12 @@
 Carlos Uriel Salcido Aviña
 217560751
 
-En este primer ejemplo se puede ver cómo se intenta hacer una división de 5 entre 5, el programa se ejecuta sin problemas. No se ejecuta el except.
+En este primer ejemplo se puede ver cómo se intenta hacer una división de 5 entre 5, el programa se ejecuta sin problemas. No se ejecuta el except.  
 
 
 ![Alt text](image.png)
 
-Con este mismo código, podemos provocar una división entre cero, lo cuál genera un error. Para evitarlo, el except se da cuenta del error y se ejecuta su código.
+Con este mismo código, podemos provocar una división entre cero, lo cuál genera un error. Para evitarlo, el except se da cuenta del error y se ejecuta su código.  
 
 
 ![Alt text](image-2.png)
