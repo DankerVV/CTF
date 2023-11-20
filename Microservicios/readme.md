@@ -1,7 +1,7 @@
 Carlos Uriel Salcido Aviña.  
 217560751.  
 
-El objetivo será crear una calculadora, donde cada operación represente un servicio difente. Para ello usaremos javascript. Esta es la función suma.
+El objetivo será crear la arquitectura de una calculadora, donde cada operación represente un servicio difente. Para ello usaremos javascript. Esta es la función suma.
 
 ![Alt text](image-4.png)
 
