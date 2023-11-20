@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: division-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: division
+  template:
+    metadata:
+      labels:
+        app: division
+    spec:
+      containers:
+      - name: division
+        image: servicio-division:latest
+        ports:
+        - containerPort: 3000 # Reemplaza con el puerto que usa tu contenedor de division

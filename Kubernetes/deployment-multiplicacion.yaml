@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: multiplicacion-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multiplicacion
+  template:
+    metadata:
+      labels:
+        app: multiplicacion
+    spec:
+      containers:
+      - name: multiplicacion
+        image: servicio-multiplicacion:latest
+        ports:
+        - containerPort: 3000 # Reemplaza con el puerto que usa tu contenedor de multiplicacion

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: suma-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: suma
+  template:
+    metadata:
+      labels:
+        app: suma
+    spec:
+      containers:
+      - name: suma
+        image: servicio-suma:latest
+        ports:
+        - containerPort: 3000 # Reemplaza con el puerto que usa tu contenedor de suma
