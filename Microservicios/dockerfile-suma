@@ -1,0 +1,18 @@
+# Establecer la imagen base
+FROM node:14
+
+# Crear el directorio de la aplicación
+WORKDIR /usr/src/app
+
+# Copiar los archivos necesarios (package.json y suma.js)
+COPY package.json .
+COPY suma.js .
+
+# Instalar dependencias
+RUN npm install
+
+# Exponer el puerto (si se necesita)
+# EXPOSE 3000
+
+# Comando para ejecutar la aplicación
+CMD ["node", "suma.js"]

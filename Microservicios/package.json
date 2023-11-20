@@ -1,0 +1,11 @@
+{
+    "name": "servicio-suma",
+    "version": "1.0.0",
+    "description": "Servicio de suma en Docker",
+    "main": "suma.js",
+    "scripts": {
+      "start": "node suma.js"
+    },
+    "dependencies": {}
+  }
+  
